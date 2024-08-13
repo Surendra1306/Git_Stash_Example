@@ -41,7 +41,6 @@ public class StudentController {
 //		return mv;
 //	}
 	
-	
 	@GetMapping("/studentDetails")
 	public ModelAndView viewStudents() {
 		List<Student> slist = service.fetchStudents();
